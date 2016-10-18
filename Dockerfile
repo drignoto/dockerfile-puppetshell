@@ -11,4 +11,4 @@ RUN apt-get install -y locales wget
 
 ENV LC_ALL es_ES.UTF-8
 
-RUN apt-get install subversion vim openssh-client
+RUN apt-get install -y subversion vim openssh-client
